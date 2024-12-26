@@ -14,20 +14,12 @@
     "wdth" 100;
 }
 
-.league-gothic {
-  font-family: "League Gothic", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
-
-.nanum-gothic-regular {
-    font-family: "Nanum Gothic", serif;
+.noto-sans-kr {
+    font-family: "Noto Sans KR", serif;
+    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-  }  
+  }
 
 body {
     display: flex;
@@ -48,6 +40,7 @@ body {
     border-radius: 10px;
     padding: 30px 40px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    font-family: Noto Sans KR, serif;
 }
 
 .wrapper h1 {
