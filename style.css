@@ -1,7 +1,7 @@
 @font-face {
-    font-family: 'Paperlogy-8ExtraBold';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
-    font-weight: 800;
+    font-family: 'Gyeonggi_Title_Medium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2410-3@1.0/Title_Medium.woff') format('woff');
+    font-weight: 500;
     font-style: normal;
 }
 
@@ -17,7 +17,7 @@
     --body-color: #391A79;
     --container-color: #391A79;
 
-    --body-font: 'Paperlogy-8ExtraBold', normal;
+    --body-font: 'Gyeonggi_Title_Medium', normal;
 
     --z-fixed: 100;
 }
@@ -174,6 +174,7 @@ body {
     width: 100%;
     padding: 20px;
     padding-bottom: 3rem;
+    background: linear-gradient(to right, var(--container-color), transparent 20%);
 }
 
 .nav_container img {
@@ -200,6 +201,7 @@ body {
 
 .nav_list {
     row-gap: 1.5rem;
+    margin-right: 90%;
 }
   
 .nav_items {
@@ -208,6 +210,7 @@ body {
 
 .nav_subtitle {
     font-size: 24px;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: .1rem;
     color: var(--text-color-light);

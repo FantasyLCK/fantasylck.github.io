@@ -20,8 +20,6 @@ if (signupForm) {
         // 회원가입 데이터 저장
         const userData = { username, password };
         localStorage.setItem('userData', JSON.stringify(userData));
-        alert('회원가입 성공! 로그인 페이지로 이동합니다.');
-
         window.location.href = 'index.html';
     });
 }
