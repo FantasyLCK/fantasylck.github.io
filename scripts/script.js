@@ -1,3 +1,5 @@
+// 로그인-회원가입 기능 구현
+
 const signupForm = document.getElementById('signupForm');
 if (signupForm) {
     signupForm.addEventListener('submit', (event) => {
@@ -48,3 +50,4 @@ if (loginForm) {
         }
     });
 }
+
