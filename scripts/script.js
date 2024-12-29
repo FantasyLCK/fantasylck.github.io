@@ -43,7 +43,6 @@ if (loginForm) {
         }
 
         if (username === savedUserData.username && password === savedUserData.password) {
-            alert('로그인 성공!');
             window.location.href = 'lobby.html';
         } else {
             alert('아이디 또는 비밀번호가 일치하지 않습니다.');
