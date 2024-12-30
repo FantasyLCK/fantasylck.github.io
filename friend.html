@@ -73,9 +73,29 @@
 
     <div class="main-content">
         <div class="description">
-
+            <h1>친구 관리</h1>
+            <div class="friend-actions">
+                <input type="text" placeholder="닉네임 또는 ID 검색" id="friend-search">
+                <button class="btn-add-friend">친구 추가</button>
+            </div>
+            <div class="friend-list">
+                <h2>내 친구 목록</h2>
+                <ul>
+                    <!-- 예시 친구 목록 -->
+                    <li>
+                        <span class="friend-name">Player123</span>
+                        <span class="friend-status online">온라인</span>
+                        <button class="btn-remove-friend">삭제</button>
+                    </li>
+                    <li>
+                        <span class="friend-name">Player456</span>
+                        <span class="friend-status offline">오프라인</span>
+                        <button class="btn-remove-friend">삭제</button>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
+    </div>    
     <script src="scripts/script.js"></script>
 </body>
 </html>

@@ -73,9 +73,25 @@
 
     <div class="main-content">
         <div class="description">
-
+            <h1>매치업</h1>
+            <div class="match-setup">
+                <label for="friend-select">매치 상대 선택:</label>
+                <select id="friend-select">
+                    <option value="Player123">Player123</option>
+                    <option value="Player456">Player456</option>
+                </select>
+                <button class="btn-start-match">매치 시작</button>
+            </div>
+            <div class="match-history">
+                <h2>매치 기록</h2>
+                <ul>
+                    <!-- 예시 매치 기록 -->
+                    <li>Player123 vs. 나 - 승리 (2024-12-29)</li>
+                    <li>Player456 vs. 나 - 패배 (2024-12-28)</li>
+                </ul>
+            </div>
         </div>
-    </div>
+    </div>    
     <script src="scripts/script.js"></script>
 </body>
 </html>
