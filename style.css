@@ -1,7 +1,7 @@
 @font-face {
-    font-family: 'Gyeonggi_Title_Medium';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2410-3@1.0/Title_Medium.woff') format('woff');
-    font-weight: 500;
+    font-family: 'SUIT-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
     font-style: normal;
 }
 
@@ -16,7 +16,7 @@
     --container-color: rgba(57, 26, 121, 1);
 
     --en-font: "League Gothic", serif;
-    --body-font: 'Gyeonggi_Title_Medium', normal;
+    --body-font: 'SUIT-Regular', normal;
 
     --z-fixed: 100;
 }
